@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="138" started-at="2022-04-29T07:57:15 IST" finished-at="2022-04-29T07:57:15 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="138" started-at="2022-04-29T07:57:15 IST" finished-at="2022-04-29T07:57:15 IST">
+      <class name="annotations.AnnotationsTestNG">
+        <test-method status="PASS" signature="A()[pri:0, instance:annotations.AnnotationsTestNG@1efed156]" name="A" duration-ms="23" started-at="2022-04-29T07:57:15 IST" finished-at="2022-04-29T07:57:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method status="PASS" signature="B()[pri:0, instance:annotations.AnnotationsTestNG@1efed156]" name="B" duration-ms="3" started-at="2022-04-29T07:57:15 IST" finished-at="2022-04-29T07:57:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+      </class> <!-- annotations.AnnotationsTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
