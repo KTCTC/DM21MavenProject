@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17731" started-at="2022-04-30T09:25:19 IST" finished-at="2022-04-30T09:25:37 IST">
+  <suite name="Default suite" duration-ms="98" started-at="2022-05-01T08:53:03 IST" finished-at="2022-05-01T08:53:03 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17731" started-at="2022-04-30T09:25:19 IST" finished-at="2022-04-30T09:25:37 IST">
-      <class name="ktctc.DM21MavenProject.FileUploadClassWithTestNG">
-        <test-method status="PASS" signature="verifyUserCanUploadFile()[pri:0, instance:ktctc.DM21MavenProject.FileUploadClassWithTestNG@4bbfb90a]" name="verifyUserCanUploadFile" duration-ms="17678" started-at="2022-04-30T09:25:19 IST" finished-at="2022-04-30T09:25:37 IST">
+    <test name="Default test" duration-ms="98" started-at="2022-05-01T08:53:03 IST" finished-at="2022-05-01T08:53:03 IST">
+      <class name="priority.PriorityInTestNG">
+        <test-method status="PASS" signature="A()[pri:-22, instance:priority.PriorityInTestNG@a7e666]" name="A" duration-ms="12" started-at="2022-05-01T08:53:03 IST" finished-at="2022-05-01T08:53:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method status="PASS" signature="verifyUserCanUploadFile()[pri:3, instance:priority.PriorityInTestNG@a7e666]" name="verifyUserCanUploadFile" duration-ms="2" started-at="2022-05-01T08:53:03 IST" finished-at="2022-05-01T08:53:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserCanUploadFile -->
-      </class> <!-- ktctc.DM21MavenProject.FileUploadClassWithTestNG -->
+        <test-method status="PASS" signature="B()[pri:20, instance:priority.PriorityInTestNG@a7e666]" name="B" duration-ms="2" started-at="2022-05-01T08:53:03 IST" depends-on-methods="priority.PriorityInTestNG.A" finished-at="2022-05-01T08:53:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+      </class> <!-- priority.PriorityInTestNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
