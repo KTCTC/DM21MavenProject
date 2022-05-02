@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="invocation.InvocationInTestNG">
+      <class name="screencapture.ScreenCapturClass2">
         <methods>
-          <include name="sampleTestCase"/>
+          <include name="afterMethod"/>
+          <include name="verifyUserCanUploadFile"/>
         </methods>
-      </class> <!-- invocation.InvocationInTestNG -->
+      </class> <!-- screencapture.ScreenCapturClass2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
