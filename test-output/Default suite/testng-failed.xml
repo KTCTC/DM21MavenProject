@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="screencapture.ScreenCapturClass2">
+      <class name="brockenlink.BrockenLinkClass5">
         <methods>
-          <include name="afterMethod"/>
-          <include name="verifyUserCanUploadFile"/>
+          <include name="verifyURLIsBrockenOrNot"/>
         </methods>
-      </class> <!-- screencapture.ScreenCapturClass2 -->
+      </class> <!-- brockenlink.BrockenLinkClass5 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [BankingApplicationAutomationSuite]]">
+  <test thread-count="5" name="Regression(failed)(failed)">
+    <classes>
+      <class name="assertion.AssertionClass">
+        <methods>
+          <include name="verifyUserCanUploadFile"/>
+          <include name="B"/>
+          <include name="A"/>
+        </methods>
+      </class> <!-- assertion.AssertionClass -->
+      <class name="invocation.InvocationInTestNG">
+        <methods>
+          <include name="sampleTestCase"/>
+        </methods>
+      </class> <!-- invocation.InvocationInTestNG -->
+      <class name="enable.EnabledInTestNG">
+        <methods>
+          <include name="B"/>
+          <include name="A"/>
+        </methods>
+      </class> <!-- enable.EnabledInTestNG -->
+      <class name="dependent.DependentTestCasesInTestNG">
+        <methods>
+          <include name="verifyUserCanBeDeleted"/>
+          <include name="verifyUserCanBeEdited"/>
+          <include name="verifyUserCanBeAdded"/>
+        </methods>
+      </class> <!-- dependent.DependentTestCasesInTestNG -->
+      <class name="assertion.SoftAssertionClass">
+        <methods>
+          <include name="B"/>
+          <include name="A"/>
+          <include name="verifyUserCanUploadFile"/>
+        </methods>
+      </class> <!-- assertion.SoftAssertionClass -->
+    </classes>
+  </test> <!-- Regression(failed)(failed) -->
+  <test thread-count="5" name="Smoke(failed)(failed)">
+    <classes>
+      <class name="brockenlink.BrockenLinkClass5">
+        <methods>
+          <include name="verifyURLIsBrockenOrNot"/>
+        </methods>
+      </class> <!-- brockenlink.BrockenLinkClass5 -->
+    </classes>
+  </test> <!-- Smoke(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [BankingApplicationAutomationSuite]] -->

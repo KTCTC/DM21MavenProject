@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="BankingApplicationAutomationSuite">
-  <test thread-count="5" name="Regression">
+  <test thread-count="4" name="Regression" parallel = "classes">
     <classes>
       <class name="annotations.AnnotationsTestNG"/>
-      <class name="annotations.SampleAnnotationTestNG"/>
+      <class name="annotations.SampleAnnotationTestNG"/>      
+      <class name="assertion.AssertionClass"/>    
+      <class name="assertion.SoftAssertionClass"/>
+      <class name="dataprovider.DataProviderInTestNG"/>
+      <class name="dataprovider.DataProviderInTestNG2"/>
+      <class name="enable.EnabledInTestNG"/>
+      <class name="dependent.DependentTestCasesInTestNG"/>
+      <class name="brockenlink.BrockenLinkClass"/>    
+      <class name="invocation.InvocationInTestNG"/>
+      <class name="priority.PriorityInTestNG"/>
+      
+      
     </classes>
   </test> <!-- Regression -->
   
   <test thread-count="5" name="Smoke">
     <classes>
       <class name="ktctc.DM21MavenProject.Sample"/>
+      <class name="brockenlink.BrockenLinkClass5"/>
     </classes>
   </test> <!-- Regression -->
 </suite> <!-- BankingApplicationAutomationSuite -->
