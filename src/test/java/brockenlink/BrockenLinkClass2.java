@@ -20,7 +20,7 @@ WebDriver driver;
 	public void verifyURLIsBrockenOrNot() throws IOException
 	{
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\chromedriver.exe");		
-		 driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);		
 		driver.get("https://demoqa.com/links");
